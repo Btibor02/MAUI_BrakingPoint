@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="BrakingPoint.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BrakingPoint"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="MainPage"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" 
+        Icon="main.png"/>
+        
+    <ShellContent
+        Title="Datas"
+        ContentTemplate="{DataTemplate local:Datas}"
+        Route="Datas" 
+        Icon="races.png"/>
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:Login}"
+        Route="Login" 
+        Icon="races.png"/>
+
+    <ShellContent
+        Title="Registration"
+        ContentTemplate="{DataTemplate local:Registration}"
+        Route="Registration" 
+        Icon="races.png"/>
+
+</Shell>
