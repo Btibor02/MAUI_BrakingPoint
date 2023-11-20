@@ -7,6 +7,8 @@ School project
 
 Original repo: https://github.com/GurumlaiGergely/MAUIBrakingPoint
 
+[![Video1](https://img.youtube.com/vi/fZR8HPVgmPM/0.jpg)](https://www.youtube.com/watch?v=fZR8HPVgmPM)
+
 
 ### Built With
 
